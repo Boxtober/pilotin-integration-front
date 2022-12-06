@@ -1,0 +1,133 @@
+@media screen and (min-width: 550px) and (max-width: 960px) {
+    header {
+
+        padding: 16px 40px;
+        
+        gap: 15px;
+    }
+    .nav-secondary-container {
+
+        gap: 15px;
+    }
+    .nav-primary-container {
+
+        gap: 15px;
+    }
+
+    main {
+
+        margin: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body > main > img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    
+    
+    header {
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+    
+
+    .mobileNavContainer,
+    .nav-secondary-container {
+        height: 68px;
+    }
+
+    .mobileNavContainer,
+    .nav-secondary-container {
+        display: none;
+    }
+
+    .mobileNavContainer {
+        position: absolute;
+        top: 108px;
+        left: 0%;
+        background: none;
+        width: 100%;
+    }
+
+
+    .mobileNavContainer > ul > li {
+        position: absolute;
+        width: 100%;
+    }
+
+    .nav-primary-container nav > ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-primary-container nav > ul > li {
+        display: contents;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    .submenu.showSubmenu {
+        position: static;
+        background: linear-gradient(89.16deg, #072038 1.27%, #0A355F 99.82%); 
+    }
+
+    .submenu ul {
+        flex-wrap: wrap;    
+    }
+
+    .burger {
+        display: block;
+        background: none;
+        border: 0;
+        padding: 0;    
+    }
+
+    #iconBurger {
+        width: 25px;
+        height: auto;
+    }
+
+    /******* M A I N ********/
+
+    main {
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        Font-size: 36px;
+        line-height: 38px;
+    }
+
+    .main-logos {
+        box-sizing: border-box;
+    }
+
+    .animate-txt-container {
+        box-sizing: border-box;
+    }
+
+    .animate-txt  {
+        box-sizing: border-box;
+    }
+
+    .main-logos {
+        align-items: center;
+        gap: 4px;
+    }
+
+    body > main > img {
+        width: 100%;
+    }
+
+    body > main > div > div > img:nth-child(3) {
+        height: 39px;
+    }
+}
+

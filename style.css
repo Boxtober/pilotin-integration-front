@@ -1,0 +1,23 @@
+@import 'btn.css';
+@import 'txt.css';
+@import 'header.css';
+@import 'main.css';
+@import 'responsive.css';
+
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(89.16deg, #072038 1.27%, #0A355F 99.82%);
+}
+
+ul li {
+    list-style: none;
+}
