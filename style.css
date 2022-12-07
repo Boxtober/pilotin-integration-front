@@ -6,14 +6,16 @@
 
 @font-face {
     font-family: 'Porpora';
-    src: url(assets/fonts/Porpora-Regular.ttf);
+    src: url('assets/fonts/Porpora-Regular.ttf') format('truetype');
 }
+
 *, ::before, ::after {
 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: 'Porpora';
 }
 
 body {

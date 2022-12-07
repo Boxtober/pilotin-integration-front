@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'Porpora';
+    src: url(assets/fonts/Porpora-Regular.ttf);
+}
+
 h1, .h1 {
     
     font-family: 'Outfit';
