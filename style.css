@@ -4,7 +4,10 @@
 @import 'main.css';
 @import 'responsive.css';
 
-
+@font-face {
+    font-family: 'Porpora';
+    src: url(assets/fonts/Porpora-Regular.ttf);
+}
 *, ::before, ::after {
 
     box-sizing: border-box;
